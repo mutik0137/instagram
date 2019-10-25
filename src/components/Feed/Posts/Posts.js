@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 
-import User from "../Users/User//User";
-import ErrorMessage from "../../Error/Error";
+import User from "../../Users/User//User";
+import ErrorMessage from "../../ErrorMessage/ErrorMessage";
 
 import InstaService from "../../services/InstaService";
 

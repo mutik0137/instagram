@@ -1,5 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */ // href #
 import React, {Component} from "react";
+import {Link} from "react-router-dom";
+
 import "../../index.css";
 import logo from "./logo.svg";
 
@@ -9,16 +11,16 @@ export default class Header extends Component {
     return (
       <header>
         <div className="container h-flex">
-          <a href="#" className="logo">
+          <Link to="/" className="logo">
             <img src={logo} alt="logo" /> {/* <img></img>  !!! */}
-          </a>
+          </Link>
           <nav className="links">
             <ul>
               <li>
-                <a href="#" className="menu__links">Лента</a>
+                <Link to="/" className="menu__links">Лента</Link>
               </li>
               <li>
-                <a href="#" className="menu__links">Профиль</a>
+                <Link to="/Profile" className="menu__links">Профиль</Link>
               </li>
             </ul>
           </nav>
