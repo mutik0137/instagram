@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import User from "./User/User"
+import User from "../../Users/User/User";
 
 
 export default class Post extends Component{

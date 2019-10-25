@@ -1,5 +1,5 @@
 import React from "react";
-import User from "../Posts/Post/User/User";
+import User from "./User/User";
 
 export default function Users() {
   return (
